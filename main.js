@@ -25,13 +25,21 @@ const getLargestNumber = (num1, num2, num3) => {
     return Math.max(num1, num2, num3);
 }
 
-console.log(getLargestNumber(65, 10, 15));
-
 // Challenge 4
+const getLastName = (names) => {
+
+    lastIndex = names.length - 1;
+    return names[lastIndex];
+}
 
 // input validation function
-function isNumber(num) {
-    return (typeof num === 'number');
+function isNumber(input) {
+    return (typeof input === 'number');
+}
+
+// input validation function
+function isString(input){
+    return (typeof input === 'string');
 }
 
 
