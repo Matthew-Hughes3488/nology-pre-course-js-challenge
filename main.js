@@ -9,3 +9,15 @@ const isNumberPositive = (num) => {
     return 1;
 };
 
+// Challenge 2
+const convertDaysToAge = (days) => {
+    if (!(typeof days === "number")) 
+        throw "Invalid argument";
+
+    return Math.floor(days/365);
+}
+
+
+
+
+
